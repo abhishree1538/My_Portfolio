@@ -23,9 +23,7 @@
                 <li><a href="#cert">Certifications</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-            <div class="hamburger" onclick="toggleMenu()">
-                <span></span><span></span><span></span>
-            </div>
+
         </nav>
     </header>
 
@@ -95,7 +93,6 @@
                     <div class="skill-tag">
                         <span class="tag">HTML</span>
                         <span class="tag">CSS</span>
-                        <span class="tag">JavaScript</span>
                     </div>
                 </div>
                 <div class="skill-box">
@@ -233,16 +230,7 @@
         <p>Designed & Built by <span>Abhishree Nalgintwar</span> &nbsp;·&nbsp; &copy; 2026 All Rights Reserved</p>
     </footer>
 
-    <script>
-        function toggleMenu() {
-            document.querySelector('.navlnk').classList.toggle('open');
-        }
-        document.querySelectorAll('.navlnk a').forEach(link => {
-            link.addEventListener('click', () => {
-                document.querySelector('.navlnk').classList.remove('open');
-            });
-        });
-    </script>
+
 
 </body>
 </html>
